@@ -15,4 +15,4 @@ dependencies:
   - drupal:telephone
   - drupal:text
   - drupal:link
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^8 || ^9 || ^10

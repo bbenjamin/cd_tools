@@ -39,7 +39,7 @@ class RouteSubscriber extends RouteSubscriberBase {
   /**
    * {@inheritdoc}
    */
-  public static function getSubscribedEvents() {
+  public static function getSubscribedEvents():array {
     $events = parent::getSubscribedEvents();
     // This needs to run after user module added it's entity route.
     $events[RoutingEvents::ALTER] = ['onAlterRoutes', -176];
